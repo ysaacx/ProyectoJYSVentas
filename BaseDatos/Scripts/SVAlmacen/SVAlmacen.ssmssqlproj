@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SVAlmacen">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(Local)\SQL12:sa">
+          <Created>2016-06-25T00:19:10.0539058-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="(Local)\SQL12:YSAACX-LP\Ysaacx">
+          <Created>2016-07-08T19:33:27.4549368-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.1.33\SQL12:sa">
+          <Created>2016-06-07T19:43:03.6417591-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.1.33\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Actualizacion BD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Actualizacion BD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Actualizar Piezas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.1.33\SQL12:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.1.33\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Actualizar Piezas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Conexion-Local.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Conexion-Local.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Consultar-ACAdmin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Consultar-ACAdmin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

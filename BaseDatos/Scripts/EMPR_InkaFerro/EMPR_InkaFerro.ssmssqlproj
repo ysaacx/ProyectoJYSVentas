@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EMPR_InkaFerro">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(Local)\SQL12:YSAACX-LP\Ysaacx">
+          <Created>2017-12-09T12:06:59.4732856-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.1.105\SQL12:sa">
+          <Created>2018-08-11T16:55:12.1668907-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.1.105\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.1.33\SQL12:sa">
+          <Created>2017-12-16T17:26:42.121243-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.1.33\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.1.5\SQL12:sa">
+          <Created>2018-08-11T16:37:01.7466055-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.1.5\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SERVERIF\SQL12:SA">
+          <Created>2017-12-02T12:00:47.4385162-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SERVERIF\SQL12</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SERVERIF\SQL12:sa">
+          <Created>2017-12-16T11:45:40.0220723-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SERVERIF\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SERVERIF01\SQL12:sa">
+          <Created>2018-01-14T18:58:57.6810414-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SERVERIF01\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SERVERIF02\SQL12:sa">
+          <Created>2017-12-09T16:57:00.3170125-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SERVERIF02\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="YSAACX-LP\SQL12:YSAACX-LP\Ysaacx">
+          <Created>2017-12-02T04:40:44.0199873-05:00</Created>
+          <Type>SQL</Type>
+          <Server>YSAACX-LP\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_Actualizacion-20180810.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_Actualizacion-20180810.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_1-Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_1-Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_2-Insert-Parusttaca.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_2-Insert-Parusttaca.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_3-Insert-Almudena.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_3-Insert-Almudena.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_4-Eliminar-Almudena.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_4-Eliminar-Almudena.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_4-Eliminar-Parustaca.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_4-Eliminar-Parustaca.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_5-CreateProductos-Parusttaca.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_5-CreateProductos-Parusttaca.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_6-CreateProductos-Almudena.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_6-CreateProductos-Almudena.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_ARTIC_7-TrasladarArticulos-Almudena.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ARTIC_7-TrasladarArticulos-Almudena.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Consultas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_Consultas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="A2018-Articulos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SERVERIF02\SQL12:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SERVERIF02\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>A2018-Articulos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="A2018-InicializarBD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>A2018-InicializarBD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Actualizacion-articulos-V2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Actualizacion-articulos-V2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Actualizacion-Articulos-V3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Actualizacion-Articulos-V3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Actualizacion-LA(Almudena).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Actualizacion-LA(Almudena).sql</FullPath>
+        </FileNode>
+        <FileNode Name="Actualizar-Articulos-Lineas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Actualizar-Articulos-Lineas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Actualizar-Lineas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Actualizar-Lineas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ActualizarProductos-20180814.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ActualizarProductos-20180814.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create-Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create-Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Importar-Articulos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Importar-Articulos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inicializacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SERVERIF\SQL12:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SERVERIF\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Inicializacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inicializacion-Admin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SERVERIF\SQL12:False:SA</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SERVERIF\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName>SA</AssociatedConnUserName>
+          <FullPath>Inicializacion-Admin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inicializacion-IF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Inicializacion-IF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ini-Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ini-Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="OLD_ARTIC_5-CreateProductos-Parusttaca.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>OLD_ARTIC_5-CreateProductos-Parusttaca.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

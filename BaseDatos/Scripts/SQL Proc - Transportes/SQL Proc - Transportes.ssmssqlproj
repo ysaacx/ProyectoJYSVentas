@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Proc - Transportes">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(Local)\SQL12:YSAACX-LP\Ysaacx">
+          <Created>2017-02-11T22:22:17.4633089-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_ConsumoCombustible.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_ConsumoCombustible.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaEfectivo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaEfectivo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaEgresos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaEgresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaFacturasPendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaFacturasPendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaFletes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaFletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaFletesPendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaFletesPendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaFletesPendientesSF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaFletesPendientesSF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaGastos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaGastos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaIngresos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaIngresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaPagos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaPagos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreCajaPendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreCajaPendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadreFletesPendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadreFletesPendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_CuadrePendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_CuadrePendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_FacturasXCancelar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_FacturasXCancelar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_FacturasXCliente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_FacturasXCliente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_Fletes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_Fletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_FletesXFacturas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_FletesXFacturas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_GastosViajeInicial.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_GastosViajeInicial.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_GastosViajeVerificados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_GastosViajeVerificados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_GuiasViajes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_GuiasViajes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_MovimientoSencillo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_MovimientoSencillo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_PendienteFletes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_PendienteFletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_PendientePorViaje.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_PendientePorViaje.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_Pendientes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_Pendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_PendientesPagadas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_PendientesPagadas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_CAJASS_RecibosTransporte.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_CAJASS_RecibosTransporte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_COMCOSS_Consumos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_COMCOSS_Consumos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_COMCOSS_ConsumosXVehiculo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_COMCOSS_ConsumosXVehiculo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_COMCOSS_ObtConCombustible.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_COMCOSS_ObtConCombustible.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_FLETESS_Ayuda.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_FLETESS_Ayuda.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_FLETESS_ConsultaFletes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_FLETESS_ConsultaFletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_FLETESS_ConsultaFletesDoc.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_FLETESS_ConsultaFletesDoc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_FLETESS_UnReg.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_FLETESS_UnReg.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_GUIASS_RepRecCemento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_GUIASS_RepRecCemento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_GUIASS_TodosGuiasRemisionDetalle.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_GUIASS_TodosGuiasRemisionDetalle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_INVSS_TodosObjetosInventario.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_INVSS_TodosObjetosInventario.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_ObtenerModelosVehiculos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_ObtenerModelosVehiculos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPORSS_CuadreCaja_Facturas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPORSS_CuadreCaja_Facturas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPORSS_CuadreCaja_FleFacturados.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPORSS_CuadreCaja_FleFacturados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPORSS_CuadreCaja_IngEgre.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPORSS_CuadreCaja_IngEgre.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPORSS_CuadreCaja_Pendientes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPORSS_CuadreCaja_Pendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPORSS_Recibos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPORSS_Recibos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPORSS_SaldoInicial.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPORSS_SaldoInicial.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPOSS_GenerarRecibos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPOSS_GenerarRecibos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_REPOSS_ViajesFletes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_REPOSS_ViajesFletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VEHICSS_Ayuda.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VEHICSS_Ayuda.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VEHISS_BuscarVehiculo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VEHISS_BuscarVehiculo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VEHISS_BuscarVehiculos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VEHISS_BuscarVehiculos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VEHISS_CargarVehiculo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VEHISS_CargarVehiculo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJESD_EliminarViaje.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJESD_EliminarViaje.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJESS_ObtenerViajes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJESS_ObtenerViajes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJESU_ActivarAnulado.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJESU_ActivarAnulado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJESU_AnularViaje.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJESU_AnularViaje.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJSS_ConsultarViajes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJSS_ConsultarViajes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJSS_GenerarRecibos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJSS_GenerarRecibos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRAN_VIAJSS_SueldoConductor.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TRAN_VIAJSS_SueldoConductor.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,4 @@
+USE BDNOVACERO
+GO
+
+SELECT * FROM dbo.Lineas

@@ -1,0 +1,24 @@
+
+SELECT LIN.LINEA_Nombre AS LINEA, SUB.LINEA_Nombre AS SUBLINEA
+	, ARTI.ARTIC_Codigo
+	, ARTI.ARTIC_Descripcion
+	, TPRO.TIPOS_Descripcion
+	, TUND.TIPOS_Descripcion
+	, TCAT.TIPOS_Descripcion
+	, TCol.TIPOS_Descripcion
+	, 0.00 AS PRECIO
+	, ARTI.*
+FROM dbo.Articulos ARTI
+INNER JOIN dbo.Lineas LIN ON LIN.LINEA_Codigo = LEFT(ARTI.LINEA_Codigo, 2)
+INNER JOIN dbo.Lineas SUB ON SUB.LINEA_Codigo = ARTI.LINEA_Codigo
+LEFT JOIN TIPOS TUND ON TUND.TIPOS_Codigo = ARTI.TIPOS_CodUnidadMedida
+LEFT JOIN TIPOS TPRO ON TPRO.TIPOS_Codigo = ARTI.TIPOS_CodTipoProducto
+LEFT JOIN TIPOS TCAT ON TCAT.TIPOS_Codigo = ARTI.TIPOS_CodCategoria
+LEFT JOIN TIPOS TCol ON Tcol.TIPOS_Codigo = ARTI.TIPOS_CodTipoColor
+
+SELECT * FROM dbo.Lineas WHERE LEN(LINEA_Codigo) = 4
+
+SELECT * FROM dbo.Tipos WHERE TIPOS_Codigo LIKE 'CTP%'
+SELECT * FROM dbo.Tipos WHERE TIPOS_Codigo LIKE 'CLR%'
+SELECT * FROM dbo.Tipos WHERE TIPOS_Codigo LIKE 'PRO%'
+SELECT * FROM dbo.Tipos WHERE TIPOS_Codigo LIKE 'CTP%'

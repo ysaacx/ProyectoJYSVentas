@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Cuadre-Caja">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(Local)\SQL12:DESARROLLO\Ysaacx">
+          <Created>2019-01-05T00:32:56.768619-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="Facturacion-PC\SQL12:sa">
+          <Created>2019-03-02T15:44:20.6464288-05:00</Created>
+          <Type>SQL</Type>
+          <Server>Facturacion-PC\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ServerDAL\SQL12:sa">
+          <Created>2019-03-16T10:11:54.8844648-05:00</Created>
+          <Type>SQL</Type>
+          <Server>ServerDAL\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_Consultas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_Consultas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_SPCaja.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_SPCaja.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CAJAS_CuadreCaja_Resumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CAJAS_CuadreCaja_Resumen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_EfectivoResumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_EfectivoResumen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_Egresos_Resumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_Egresos_Resumen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_EgresosDetalle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_EgresosDetalle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_FacturasResumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_FacturasResumen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_Ingresos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_Ingresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_Pendientes_Resumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_Pendientes_Resumen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_SInicial_Resumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_SInicial_Resumen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_CCAJASS_SInicial_Resumen-dep.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_CCAJASS_SInicial_Resumen-dep.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VENT_REPOSS_MovimientoEfectivo_Resumen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VENT_REPOSS_MovimientoEfectivo_Resumen.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

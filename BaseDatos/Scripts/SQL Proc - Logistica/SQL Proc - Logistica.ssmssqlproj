@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Proc - Logistica">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(Local)\SQL12:YSAACX-PCHP\Ysaacx">
+          <Created>2017-02-11T22:16:49.958427-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ANTAPAKAY-SVR:Admin">
+          <Created>2018-02-10T17:40:00.3334721-05:00</Created>
+          <Type>SQL</Type>
+          <Server>ANTAPAKAY-SVR</Server>
+          <UserName>Admin</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SCC-Server\SQL12:Admin">
+          <Created>2018-08-12T18:56:02.4349756-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SCC-Server\SQL12</Server>
+          <UserName>Admin</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="serverif02\SQL12:sa">
+          <Created>2018-04-07T13:53:40.5958514-05:00</Created>
+          <Type>SQL</Type>
+          <Server>serverif02\SQL12</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_Consultas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_Consultas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABAS_DOCCOSD_UnRegCompleto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABAS_DOCCOSD_UnRegCompleto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABAS_GENREPSS_ComprasProveedoresFecha.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABAS_GENREPSS_ComprasProveedoresFecha.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABAS_GENREPSS_PendienteXDocumento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABAS_GENREPSS_PendienteXDocumento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABAS_INGCOSD_UnRegStock.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABAS_INGCOSD_UnRegStock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABAS_INPZASS_ObtenerStockPiezas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABAS_INPZASS_ObtenerStockPiezas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABAS_ORDCDSS_UnRegImpresion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABAS_ORDCDSS_UnRegImpresion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRL_MostrarDocumentosCliente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRL_MostrarDocumentosCliente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRL_ReporteDocumentosXCliente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRL_ReporteDocumentosXCliente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRL_STOCKSS_KardexXArticulo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRL_STOCKSS_KardexXArticulo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRLSS_CompraSinConfirmar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRLSS_CompraSinConfirmar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRLSS_InventarioRotativo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRLSS_InventarioRotativo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRLSS_PedidoReposicion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRLSS_PedidoReposicion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRLSS_PendientesOrdenes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRLSS_PendientesOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CTRLSS_PendientesVentas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CTRLSS_PendientesVentas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_GuiasDeSalidas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_GuiasDeSalidas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_GuiasPendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_GuiasPendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_GuiasPorConductor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_GuiasPorConductor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_GuiasPorConductorFecha.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_GuiasPorConductorFecha.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_Salidas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_Salidas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_SalidasDetalle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_SalidasDetalle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIA_SalidasPendientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIA_SalidasPendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIAR_UnRegActGuiaRemision.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GUIAR_UnRegActGuiaRemision.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GUIASU_ActualizarGuiaRSalidas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GUIASU_ActualizarGuiaRSalidas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_ABASSD_EliminarStockIngresoMerc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_ABASSD_EliminarStockIngresoMerc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_ABASSD_EliminarStockSoloIngresoMerc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_ABASSD_EliminarStockSoloIngresoMerc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_ABASSS_ConsultaCompras.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_ABASSS_ConsultaCompras.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_ABASSS_ConsultaOrdenes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_ABASSS_ConsultaOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_COTCOSS_TodosCotizaciones.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_COTCOSS_TodosCotizaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_CuadrePendientes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_CuadrePendientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_CuadrePendientesIntegrado.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_CuadrePendientesIntegrado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_CuadrePendientesOrdenes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_CuadrePendientesOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_CuadrePendientesVentas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_CuadrePendientesVentas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_CuadrePendientesVentasV2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_CuadrePendientesVentasV2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtDetDocVenta.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtDetDocVenta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtDetOrdenes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtDetOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtDocVenta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtDocVenta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtDocVentaXNumero.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtDocVentaXNumero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtDocVentaXNumeroPerGenGuia.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtDocVentaXNumeroPerGenGuia.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtOrdenes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtOrdenesXNumero.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtOrdenesXNumero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_GUIASS_ObtOrdenesXNumeroPerGenGuia.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_GUIASS_ObtOrdenesXNumeroPerGenGuia.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DIST_ObtenerPendientesOrdenes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DIST_ObtenerPendientesOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_BuscarGuiasRemision.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_BuscarGuiasRemision.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_BuscarGuiasRemisionXNumero.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_BuscarGuiasRemisionXNumero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_BuscarOrdenesIngreso.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_BuscarOrdenesIngreso.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_BuscarOrdenesIngresoLocal.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_BuscarOrdenesIngresoLocal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_BuscarOrdenesIngresoPtoVenta.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_BuscarOrdenesIngresoPtoVenta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_GetSaldoArticulo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_GetSaldoArticulo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_GuiasXDocumento.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_GuiasXDocumento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_GuiasXDocumentoOrden.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_GuiasXDocumentoOrden.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_ObtenerGuiaTransf.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_ObtenerGuiaTransf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_ObtenerGuiaVenta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_ObtenerGuiaVenta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_ObtenerOrden.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_ObtenerOrden.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_OrdenesXDocumento.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_OrdenesXDocumento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DISTSS_ReporVentXCliente.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DISTSS_ReporVentXCliente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DOCCOSD_EliminarDetalle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DOCCOSD_EliminarDetalle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DOCCOSD_EliminarStock.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DOCCOSD_EliminarStock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DOCCOSD_EliminarStockIngresoMerc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DOCCOSD_EliminarStockIngresoMerc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DOCCOSS_ObtenerSaldoEntrega.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_DOCCOSS_ObtenerSaldoEntrega.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_DOCCOSS_TodosDocCompra.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_DOCCOSS_TodosDocCompra.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuias.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuias.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasIngresos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasIngresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasIngresosXNumero.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasIngresosXNumero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasReposicion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasReposicion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasReposicionXNumero.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasReposicionXNumero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasSalida.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasSalida.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasSalidaRemoto.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasSalidaRemoto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasSalidaXNumero.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasSalidaXNumero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasSalidaXNumeroRemoto.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasSalidaXNumeroRemoto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_GUIASS_ObtenerGuiasTodas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_GUIASS_ObtenerGuiasTodas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_INGCOSS_IngresoCompras.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_INGCOSS_IngresoCompras.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_INGCOSS_ObtenerIngresoCompra.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_INGCOSS_ObtenerIngresoCompra.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_INGSS_Consulta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_INGSS_Consulta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_ORDCOSS_TodosOrdenes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_ORDCOSS_TodosOrdenes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_ORDENSS_ObtenerSaldoEntrega.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_ORDENSS_ObtenerSaldoEntrega.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STINISI_CargarStockInicial.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOG_STINISI_CargarStockInicial.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STOCKSI_UnReg.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_STOCKSI_UnReg.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STOCKSS_ObtenerStock.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_STOCKSS_ObtenerStock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STOCKSS_ObtenerStockAlmacen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_STOCKSS_ObtenerStockAlmacen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STOCKSS_StockALaFecha.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_STOCKSS_StockALaFecha.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STOCKSS_StockInicialImportacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_STOCKSS_StockInicialImportacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOG_STOCKSS_TodosPorPeriodo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LOG_STOCKSS_TodosPorPeriodo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LOGI_DOCSS_FacturasCemento.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LOGI_DOCSS_FacturasCemento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRIGGER_ABASSS_ActualizacionArticulos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRIGGER_ABASSS_ActualizacionArticulos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRIGGER_ENROLSS_PermisoPorUsuarios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRIGGER_ENROLSS_PermisoPorUsuarios.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

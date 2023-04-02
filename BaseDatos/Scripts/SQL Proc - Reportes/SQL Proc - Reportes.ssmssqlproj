@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Proc - Reportes">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(Local)\SQL12:YSAACX-LP\Ysaacx">
+          <Created>2017-02-11T22:20:48.4642241-05:00</Created>
+          <Type>SQL</Type>
+          <Server>(Local)\SQL12</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="ANTAPAKAY-SVR:Admin">
+          <Created>2018-07-07T09:51:11.2282417-05:00</Created>
+          <Type>SQL</Type>
+          <Server>ANTAPAKAY-SVR</Server>
+          <UserName>Admin</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_Consultas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_Consultas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADMIN_REPOSS_VentasMensuales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADMIN_REPOSS_VentasMensuales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADMIN_REPOSS_VentasPorCliente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADMIN_REPOSS_VentasPorCliente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADMIN_REPOSS_VentasPorTotales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADMIN_REPOSS_VentasPorTotales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADMIN_REPOSS_VentasTotales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ANTAPAKAY-SVR:False:Admin</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ANTAPAKAY-SVR</AssociatedConnSrvName>
+          <AssociatedConnUserName>Admin</AssociatedConnUserName>
+          <FullPath>ADMIN_REPOSS_VentasTotales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADMIN_REPOSS_VentasTotalesPorSerie.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADMIN_REPOSS_VentasTotalesPorSerie.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_CotizacionVenta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_CotizacionVenta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_CuentasCorrientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_CuentasCorrientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_EstadoCuentaCorriente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ANTAPAKAY-SVR:False:Admin</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ANTAPAKAY-SVR</AssociatedConnSrvName>
+          <AssociatedConnUserName>Admin</AssociatedConnUserName>
+          <FullPath>REPOSS_EstadoCuentaCorriente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_GuiasTraslado.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_GuiasTraslado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_GuiasXCliente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_GuiasXCliente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_GuiasXConductor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_GuiasXConductor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_MovimientoCaja.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_MovimientoCaja.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_ObtenerArreglo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_ObtenerArreglo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_ReporteCobranza.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_ReporteCobranza.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_ReporteVentasAnuladas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_ReporteVentasAnuladas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_VentasMensuales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(Local)\SQL12:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(Local)\SQL12</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPOSS_VentasMensuales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPOSS_VentasTodos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ANTAPAKAY-SVR:False:Admin</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ANTAPAKAY-SVR</AssociatedConnSrvName>
+          <AssociatedConnUserName>Admin</AssociatedConnUserName>
+          <FullPath>REPOSS_VentasTodos.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

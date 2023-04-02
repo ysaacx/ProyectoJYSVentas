@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SVAlmacen", "SVAlmacen\SVAlmacen.ssmssqlproj", "{D08737C7-D26E-47DE-B91C-114D28F445E4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Migracion", "SQL Migracion\SQL Migracion.ssmssqlproj", "{44202F48-2BA5-4D0D-99E1-306B346D48CA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Contabilidad", "SQL Contabilidad\SQL Contabilidad.ssmssqlproj", "{244C408B-3A2E-43F9-BC48-C0A8E76A7E65}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SAdmin", "SAdmin\SAdmin.ssmssqlproj", "{84A71C7C-22C3-44D8-AE43-2FA920AA6EEE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Inicializacion", "Inicializacion\Inicializacion.ssmssqlproj", "{D6D86B78-7CF7-4F80-9D05-166870F59AFA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_SCC", "EMPR_SCC\EMPR_SCC.ssmssqlproj", "{E10350D1-CBD0-491B-BE35-4DD61F053ACA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Actualizacion", "Actualizacion\Actualizacion.ssmssqlproj", "{8BBD2E71-2E60-4036-BEC6-42D7BAB7C841}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Costeo", "SQL Proc - Costeo\SQL Proc - Costeo.ssmssqlproj", "{2A2A97B1-4ADC-45CC-B6CE-BAF9FE494555}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Logistica", "SQL Proc - Logistica\SQL Proc - Logistica.ssmssqlproj", "{93A3F394-2470-487A-91B0-964DEF631FFE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Maestros", "SQL Proc - Maestros\SQL Proc - Maestros.ssmssqlproj", "{4FE0890B-7DBD-4EE8-9559-2F225141B0DC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Reportes", "SQL Proc - Reportes\SQL Proc - Reportes.ssmssqlproj", "{3A49A39D-5AB3-44A0-97DB-8D599636EBCB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Tesoreria-Caja", "SQL Proc - Tesoreria-Caja\SQL Proc - Tesoreria-Caja.ssmssqlproj", "{9CE6978F-D655-4642-84F4-666C88E58B89}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Transportes", "SQL Proc - Transportes\SQL Proc - Transportes.ssmssqlproj", "{477C3F9E-A908-42B8-9331-93B4E0A631E0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Proc - Ventas", "SQL Proc - Ventas\SQL Proc - Ventas.ssmssqlproj", "{1F0C5595-8B9D-47AA-BDA1-891C4DAC2AA1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_ADECO", "EMPR_ADECO\EMPR_ADECO.ssmssqlproj", "{D572E5A4-1F73-4BEA-B5BA-BD11B05911EC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Historial", "SQL Historial\SQL Historial.ssmssqlproj", "{3C065DC5-211D-461E-B4D4-6462E5078E1F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_InkaFerro", "EMPR_InkaFerro\EMPR_InkaFerro.ssmssqlproj", "{BE827BA6-05BF-4409-81EF-02E64523E2CA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SMaster", "SMaster\SMaster.ssmssqlproj", "{B26AEC8E-7F46-4A66-A671-68108BA20396}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_Altapakay", "EMPR_Altapakay\EMPR_Altapakay.ssmssqlproj", "{3D80FE43-3442-460F-BD55-EECD849A5D98}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BD-Inicializacion", "BD-Inicializacion\BD-Inicializacion.ssmssqlproj", "{8D3ECD45-FB54-46FB-8442-A3DF7BDED5B9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Cuadre-Caja", "SQL Cuadre-Caja\SQL Cuadre-Caja.ssmssqlproj", "{2BF23301-2C56-4C3A-BF59-F81C18094B8F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_ComaFISUR", "EMPR_ComaFISUR\EMPR_ComaFISUR.ssmssqlproj", "{AE879433-6F97-459A-9397-03BFA4F4DC89}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Facturacion-Ventas", "SQL Facturacion-Ventas\SQL Facturacion-Ventas.ssmssqlproj", "{726680B9-0E49-40F6-BE17-68FB4D69A0B2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Soportes", "SQL Soportes\SQL Soportes.ssmssqlproj", "{4A5C13BB-0B74-456F-9EB4-4F9914448FAA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_DAcerosLaminados", "EMPR_DAcerosLaminados\EMPR_DAcerosLaminados.ssmssqlproj", "{AF4461E3-CF7D-4850-9098-277B8BD2A680}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_CARLO", "EMPR_CARLO\EMPR_CARLO.ssmssqlproj", "{4FB1763F-E5D7-498C-8D7C-218BF6962124}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_PAKELUZ", "EMPR_PAKELUZ\EMPR_PAKELUZ.ssmssqlproj", "{C424A18F-4365-424D-8641-E0962270A82B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_NOVACERO", "EMPR_NOVACERO\EMPR_NOVACERO.ssmssqlproj", "{92F4F97F-DCE3-4732-AB2D-5289F4B52CE2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_FERROFORTE", "EMPR_FERROFORTE\EMPR_FERROFORTE.ssmssqlproj", "{0B06F213-F49D-4A2B-836D-44A68981F72D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_AcerosFirme", "EMPR_AcerosFirme\EMPR_AcerosFirme.ssmssqlproj", "{FDD673AF-D783-4499-9B1A-B91DE2186526}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_InkaPeru", "EMPR_InkaPeru\EMPR_InkaPeru.ssmssqlproj", "{A2886CFE-D49E-4419-976B-A640DD487274}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_DakaConsultores", "EMPR_DakaConsultores\EMPR_DakaConsultores.ssmssqlproj", "{4B79C643-CF60-4C44-9946-D203057174EB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_InkaceroPeru", "EMPR_InkaceroPeru\EMPR_InkaceroPeru.ssmssqlproj", "{1B4A1110-DFA1-4DFA-AEDF-4B0F04AAFFF8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EMPR_Jayvic", "EMPR_Jayvic\EMPR_Jayvic.ssmssqlproj", "{9063CB22-E35B-4882-85D0-7A552F008BB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08737C7-D26E-47DE-B91C-114D28F445E4}.Default|Default.ActiveCfg = Default
+		{44202F48-2BA5-4D0D-99E1-306B346D48CA}.Default|Default.ActiveCfg = Default
+		{244C408B-3A2E-43F9-BC48-C0A8E76A7E65}.Default|Default.ActiveCfg = Default
+		{84A71C7C-22C3-44D8-AE43-2FA920AA6EEE}.Default|Default.ActiveCfg = Default
+		{D6D86B78-7CF7-4F80-9D05-166870F59AFA}.Default|Default.ActiveCfg = Default
+		{E10350D1-CBD0-491B-BE35-4DD61F053ACA}.Default|Default.ActiveCfg = Default
+		{8BBD2E71-2E60-4036-BEC6-42D7BAB7C841}.Default|Default.ActiveCfg = Default
+		{2A2A97B1-4ADC-45CC-B6CE-BAF9FE494555}.Default|Default.ActiveCfg = Default
+		{93A3F394-2470-487A-91B0-964DEF631FFE}.Default|Default.ActiveCfg = Default
+		{4FE0890B-7DBD-4EE8-9559-2F225141B0DC}.Default|Default.ActiveCfg = Default
+		{3A49A39D-5AB3-44A0-97DB-8D599636EBCB}.Default|Default.ActiveCfg = Default
+		{9CE6978F-D655-4642-84F4-666C88E58B89}.Default|Default.ActiveCfg = Default
+		{477C3F9E-A908-42B8-9331-93B4E0A631E0}.Default|Default.ActiveCfg = Default
+		{1F0C5595-8B9D-47AA-BDA1-891C4DAC2AA1}.Default|Default.ActiveCfg = Default
+		{D572E5A4-1F73-4BEA-B5BA-BD11B05911EC}.Default|Default.ActiveCfg = Default
+		{3C065DC5-211D-461E-B4D4-6462E5078E1F}.Default|Default.ActiveCfg = Default
+		{BE827BA6-05BF-4409-81EF-02E64523E2CA}.Default|Default.ActiveCfg = Default
+		{B26AEC8E-7F46-4A66-A671-68108BA20396}.Default|Default.ActiveCfg = Default
+		{3D80FE43-3442-460F-BD55-EECD849A5D98}.Default|Default.ActiveCfg = Default
+		{8D3ECD45-FB54-46FB-8442-A3DF7BDED5B9}.Default|Default.ActiveCfg = Default
+		{2BF23301-2C56-4C3A-BF59-F81C18094B8F}.Default|Default.ActiveCfg = Default
+		{AE879433-6F97-459A-9397-03BFA4F4DC89}.Default|Default.ActiveCfg = Default
+		{726680B9-0E49-40F6-BE17-68FB4D69A0B2}.Default|Default.ActiveCfg = Default
+		{4A5C13BB-0B74-456F-9EB4-4F9914448FAA}.Default|Default.ActiveCfg = Default
+		{AF4461E3-CF7D-4850-9098-277B8BD2A680}.Default|Default.ActiveCfg = Default
+		{4FB1763F-E5D7-498C-8D7C-218BF6962124}.Default|Default.ActiveCfg = Default
+		{C424A18F-4365-424D-8641-E0962270A82B}.Default|Default.ActiveCfg = Default
+		{92F4F97F-DCE3-4732-AB2D-5289F4B52CE2}.Default|Default.ActiveCfg = Default
+		{0B06F213-F49D-4A2B-836D-44A68981F72D}.Default|Default.ActiveCfg = Default
+		{FDD673AF-D783-4499-9B1A-B91DE2186526}.Default|Default.ActiveCfg = Default
+		{A2886CFE-D49E-4419-976B-A640DD487274}.Default|Default.ActiveCfg = Default
+		{4B79C643-CF60-4C44-9946-D203057174EB}.Default|Default.ActiveCfg = Default
+		{1B4A1110-DFA1-4DFA-AEDF-4B0F04AAFFF8}.Default|Default.ActiveCfg = Default
+		{4CE0C993-97E0-456A-9C33-380714D364D2}.Default|Default.ActiveCfg = Default
+		{9063CB22-E35B-4882-85D0-7A552F008BB5}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52483A2D-265B-4FC4-B47A-085AA5465194}
+	EndGlobalSection
+EndGlobal

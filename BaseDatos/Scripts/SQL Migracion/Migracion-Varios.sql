@@ -1,0 +1,12 @@
+
+SELECT * FROM Parametros
+
+USE BDAmbientaDecora
+GO
+UPDATE Parametros SET PARMT_Valor = '20600432606' WHERE PARMT_Id = 'Empresa'
+UPDATE Parametros SET PARMT_Valor = 'AMBIENTA Y DECORA' WHERE PARMT_Id = 'EmpresaRS'
+
+USE BDDAF
+GO
+UPDATE Parametros SET PARMT_Valor = '20600432606' WHERE PARMT_Id = 'Empresa'
+UPDATE Parametros SET PARMT_Valor = 'AMBIENTA Y DECORA' WHERE PARMT_Id = 'EmpresaRS'

@@ -1,0 +1,49 @@
+--USE BDInkaPeru
+--GO
+--SELECT * FROM Logistica.LOG_Stocks WHERE GUIAR_Codigo IN ('090050000545','090050000549','090050000550','090050000564','090050000569', '090050000663', '90050000650')
+--SELECT * FROM Logistica.LOG_Stocks WHERE DOCVE_Codigo IN ('03B0010010668') --, '90050000650')
+
+--SELECT * FROM Logistica.LOG_Stocks WHERE ARTIC_Codigo = '0801012' AND PERIO_Codigo = '2019' AND CONVERT(VARCHAR(19), STOCK_Fecha, 112) = '20190529'
+--SELECT * FROM Ventas.VENT_DocsVenta WHERE DOCVE_Codigo LIKE '01F0010002206'
+--SELECT * FROM Logistica.DIST_GuiasRemision WHERE DOCVE_Codigo = '01F0010002206'
+
+--SELECT * FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND DOCVE_Codigo = '01F0010002206'
+--SELECT * FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND GUIAR_Codigo = '090050000677'
+
+--SELECT * FROM Historial.LOG_Stocks WHERE PERIO_Codigo = '2019' AND DOCVE_Codigo = '01F0010002206'
+--SELECT * FROM Historial.LOG_Stocks WHERE PERIO_Codigo = '2019' AND GUIAR_Codigo = '090050000677'
+
+
+--SELECT * FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND DOCVE_Codigo = '01F0010002206'
+--SELECT * FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND GUIAR_Codigo = '090050000677'
+
+--SELECT * FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND GUIAR_Codigo IS NOT NULL ORDER BY STOCK_FecCrea
+
+--SELECT * FROM Ventas.VENT_DocsVenta WHERE DOCVE_Codigo  IN (SELECT DOCVE_Codigo FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' ) AND DOCVE_FecCrea > '2019-04-22'
+
+
+
+
+--SELECT * FROM Ventas.VENT_DocsVenta WHERE DOCVE_Codigo IN (SELECT DOCVE_Codigo FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' ) AND DOCVE_FecCrea > '2019-04-22'
+
+--SELECT * FROM Logistica.DIST_GuiasRemision WHERE GUIAR_Codigo NOT IN (SELECT GUIAR_Codigo FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND GUIAR_Codigo IS NOT NULL )
+--SELECT * FROM Logistica.DIST_GuiasRemision WHERE GUIAR_Codigo = '090050000677'
+
+--SELECT * FROM Logistica.DIST_GuiasRemision 
+-- WHERE GUIAR_Codigo NOT IN (SELECT GUIAR_Codigo FROM Logistica.LOG_Stocks WHERE PERIO_Codigo = '2019' AND GUIAR_Codigo IS NOT NULL ) 
+--   AND GUIAR_FecCrea > '2019-04-22'
+
+
+USE BDMaster
+GO
+exec INGRSS_KardexXArticulo @Id_Producto=N'0829005',@FecIni='2019-01-01 00:00:00',@FecFin='2019-12-31 00:00:00',@EMPR_Codigo=N'INKAP'
+
+SELECT * FROM dbo.Compras WHERE EMPR_Codigo = 'INKAP' AND Id_Proveedor = '20124778213'
+SELECT * FROM dbo.Movimientos WHERE EMPR_Codigo = 'INKAP' AND Id_Documento = '07F0010000001'
+
+SELECT * FROM dbo.Clientes WHERE Razon_Social_Cliente LIKE '%QORI%'
+SELECT * FROM dbo.Proveedor WHERE Nombre_Proveedor LIKE '%QORI%'
+
+
+
+

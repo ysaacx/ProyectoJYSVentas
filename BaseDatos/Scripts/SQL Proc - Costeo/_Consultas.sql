@@ -1,0 +1,3 @@
+
+
+SELECT * FROM dbo.Tipos WHERE TIPOS_Codigo LIKE 'CTO%'

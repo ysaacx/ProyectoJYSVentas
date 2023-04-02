@@ -1,0 +1,29 @@
+USE BDInkaPeru
+GO
+
+--SELECT * FROM Tesoreria.TESO_Recibos WHERE CONVERT(DATE, RECIB_FecCrea) = '2019-01-02'
+
+go
+exec VENT_CCAJASS_Facturas @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+EXEC VENT_CCAJASS_Ingresos @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+exec VENT_CCAJASS_Egresos @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+exec VENT_CCAJASS_SInicial @FecIni='2018-12-31 00:00:00',@PVENT_Id=1
+
+exec VENT_CCAJASS_SaldoInicialEfectivo @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+exec VENT_CCAJASS_Efectivo @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+
+--exec VENT_CCAJASS_Facturas @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+
+exec VENT_REPOSS_MovimientoEfectivo @FecIni='2018-12-31 00:00:00',@FecFin='2018-12-31 00:00:00',@PVENT_Id=1
+
+
+
+exec VENT_CCAJASS_SInicial @FecIni='2018-12-31 00:00:00',@PVENT_Id=1
+
+exec VENT_CCAJASS_Egresos @FecIni='2019-01-01 00:00:00',@FecFin='2019-01-03 00:00:00',@PVENT_Id=1

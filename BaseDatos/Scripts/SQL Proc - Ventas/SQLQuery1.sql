@@ -1,0 +1,17 @@
+USE BDNOVACERO
+GO
+
+SELECT * FROM dbo.Entidades WHERE ENTID_NroDocumento = '20563926719'
+
+SELECT * FROM dbo.Entidades WHERE ENTID_Codigo = '20563926719'
+SELECT * FROM dbo.Entidades WHERE ENTID_Codigo = '20606674288'
+
+--20563926719 
+
+
+SELECT * FROM BDSAdmin..Empresas
+SELECT * FROM BDSAdmin..Empresas WHERE EMPR_Codigo = 'NOVAC'
+UPDATE BDSAdmin..Empresas SET EMPR_RUC = '20606674288' WHERE EMPR_Codigo = 'NOVAC'
+
+SELECT * FROM dbo.Parametros 
+SELECT * FROM dbo.PuntoVenta

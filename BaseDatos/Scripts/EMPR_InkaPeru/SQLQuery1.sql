@@ -1,0 +1,1 @@
+SELECT * FROM dbo.StockInicial WHERE Periodo = '2020'
